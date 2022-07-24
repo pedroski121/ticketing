@@ -5,7 +5,7 @@ import { CustomError } from "./custom-error";
 //     serializeErrors():{
 //         message:string;
 //         field?:string;
-//     }[];
+//     }[]; 
 // }
 
 export class RequestValidationError extends CustomError /* implements CustomError*/ {
