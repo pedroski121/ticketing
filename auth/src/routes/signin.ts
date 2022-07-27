@@ -17,8 +17,7 @@ router.post('/api/users/signin',[
     .trim()
     .notEmpty()
     .withMessage('You must apply a password')
-],
-    
+],  
     validateRequest,
     async (req:Request,res:Response)=>{
     const {email,password} = req.body;
