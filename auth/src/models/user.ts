@@ -16,7 +16,7 @@ interface UserModel extends mongoose.Model<UserDoc> {
 }
 
 /*  An interface that describes the properties 
-    that a User document(single User) has
+    that a saved User document(single User) has
 */
 interface UserDoc extends mongoose.Document {
     email:string;
