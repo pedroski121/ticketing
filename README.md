@@ -7,10 +7,10 @@ To run
 4. Install chocoletey on your system 
 5. Using chocoletey install skaffold 
 6. Go to C:\windows\system32\drivers\etc\hosts
-   Add 127.0.0.1 ticketing.dev
+       Add 127.0.0.1 ticketing.dev
 7. In the root directory of the ticketing project 
   using your terminal run skaffold dev --trigger polling
-8. The frontend of this project is not yet done so you will have an api testing tool such as postman to test
+8. The frontend of this project is not yet done so you will have to use an api testing tool such as postman to test
 
 
 
