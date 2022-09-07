@@ -2,7 +2,7 @@
 This project is still in development. 
 To run
 1. Install and run Docker on your system
-2. Install Kubernetes and make sure it is running
+2. Install and run Kubernetes on your system
 3. Make sure you have a nginx namespace in your kubernetes cluster
 4. Install chocoletey on your system 
 5. Using chocoletey install skaffold 
